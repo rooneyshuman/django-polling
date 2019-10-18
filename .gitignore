@@ -1,2 +1,5 @@
 # JetBrains
 .idea
+
+# python being helpful
+__pycache__
