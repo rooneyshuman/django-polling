@@ -25,8 +25,6 @@ SECRET_KEY = '@za^c2sci7q^ff@o+&$t9mx4(8dg^@8ja*1iyc#ezg#21&$7=d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['34.82.121.183', 'localhost', 'bestgroupsre.ipq.co']
-
 
 # Application definition
 
