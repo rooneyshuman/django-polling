@@ -1,12 +1,16 @@
 server {
-    listen 80;
-    server_name srebestgroup2.ipq.co;
-    location /static/ {
-        root /var/www/polling;
-    }
-    location = /favicon.ico {access_log off; log_not_found off;}
-    location / {
-        include proxy_params;
-        proxy_pass http://localhost:8000;
-    }
+        listen 80;
+        location /static/ {
+                root /var/www/polling;
+        }
+        location = /favicon.ico { 
+                access_log off;
+                error_log off;
+        }
+        location / {
+                include proxy_params;
+                proxy_pass http://localhost:8000;
+                access_log /var/log/polling/access.log;
+                error_log /var/log/polling/error.log;
+        }
 }
