@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'sreproject',
         'USER': 'sreprojectuser',
         'PASSWORD': 'sreprojectpw',
-        'HOST': 'localhost',
+        'HOST': '35.184.44.204',
         'PORT': '',
     }
 }
